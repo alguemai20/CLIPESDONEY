@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Botão Colorido</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    h1 {
+      margin-bottom: 40px;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    }
+    button {
+      background: #ff4081;
+      border: none;
+      padding: 20px 50px;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: white;
+      border-radius: 50px;
+      box-shadow: 0 8px 15px rgba(255, 64, 129, 0.4);
+      cursor: pointer;
+      transition: all 0.3s ease;
+      user-select: none;
+    }
+    button:hover {
+      background: #e73370;
+      box-shadow: 0 15px 20px rgba(231, 51, 112, 0.6);
+      transform: translateY(-3px);
+    }
+    button:active {
+      transform: translateY(1px);
+      box-shadow: 0 5px 10px rgba(231, 51, 112, 0.4);
+    }
+  </style>
+</head>
+<body>
+  <h1>Baixe o arquivo clicando no botão abaixo</h1>
+
+  <button onclick="window.location.href='https://www.mediafire.com/file/rra46qsx8ck1zou/neynosantosclips.mp4/file'">
+    Baixar Arquivo
+  </button>
+
+</body>
+</html>
